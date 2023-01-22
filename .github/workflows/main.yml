@@ -93,7 +93,7 @@ jobs:
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_TO_246 }}
-#       Telegram_token: 5845044429:AAGdQt7rrTCG4tEzsM4gZSOf3mJP5r-LJW4
+#       Telegram_token_246: 5845044429:AAGdQt7rrTCG4tEzsM4gZSOf3mJP5r-LJW4
         token: ${{ secrets.TELEGRAM_TOKEN_246 }}
         message: ${{ github.workflow }} успешно выполнен! 
 
