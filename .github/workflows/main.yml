@@ -64,7 +64,7 @@ jobs:
       uses: docker/build-push-action@v2 
       with:
         push: true
-        tags: Alex2266447/infra_actions:latest
+        tags: alex2266447/infra_actions:latest
 
   deploy:
       runs-on: ubuntu-latest
